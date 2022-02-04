@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct NetworkRequestUIApp: App {
+    
+    var network = Network()  // Added by Iurie
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(network) // Added by Iurie
+            
         }
     }
 }
