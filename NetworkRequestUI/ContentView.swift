@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var network: Network  // Added by Iurie
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
