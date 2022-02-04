@@ -12,6 +12,7 @@
 		8A398D6D27AD95CA00A120D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A398D6C27AD95CA00A120D9 /* Assets.xcassets */; };
 		8A398D7027AD95CA00A120D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A398D6F27AD95CA00A120D9 /* Preview Assets.xcassets */; };
 		8A398D7727AD960200A120D9 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A398D7627AD960200A120D9 /* Network.swift */; };
+		8A398D7927AD96D800A120D9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A398D7827AD96D800A120D9 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8A398D6C27AD95CA00A120D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A398D6F27AD95CA00A120D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A398D7627AD960200A120D9 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		8A398D7827AD96D800A120D9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				8A398D6827AD95C800A120D9 /* NetworkRequestUIApp.swift */,
 				8A398D6A27AD95C800A120D9 /* ContentView.swift */,
+				8A398D7827AD96D800A120D9 /* User.swift */,
 				8A398D6C27AD95CA00A120D9 /* Assets.xcassets */,
 				8A398D7627AD960200A120D9 /* Network.swift */,
 				8A398D6E27AD95CA00A120D9 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A398D7927AD96D800A120D9 /* User.swift in Sources */,
 				8A398D6B27AD95C800A120D9 /* ContentView.swift in Sources */,
 				8A398D6927AD95C800A120D9 /* NetworkRequestUIApp.swift in Sources */,
 				8A398D7727AD960200A120D9 /* Network.swift in Sources */,
